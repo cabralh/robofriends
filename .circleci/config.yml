@@ -18,7 +18,7 @@ jobs:
       - run: npm test
   yayamon:
     docker:
-      -image: circleci/node:8.9
+      - image: circleci/node:8.9
     steps:
       - checkout
       - run: echo "YAYAMON"
