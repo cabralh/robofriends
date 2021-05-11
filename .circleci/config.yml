@@ -29,5 +29,5 @@ workflows:
       - build
       - yayamon
       - test:
-        requires:
-          - yayamon
+          requires:
+            - yayamon
